@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+}
+
+header {
+  display: flex;
+}
+
+header span {
+  margin: 6px;
+}
+
+header span.material-icons {
+  font-size: 26px;
+}
+
+header span.title {
+  flex: 1;
+  font-size: 24px;
+}
+
+nav.month {
+  display: flex;
+  align-items: center;
+}
+
+nav.month span.month {
+  font-size: 24px;
+}
+
+nav.month span.material-icons {
+  margin: 4px;
+}
+
+section.current {
+  display: flex;
+  align-items: center;
+  border-bottom: 12px solid #f9f9f9;
+  padding: 16px;
+}
+
+section.current div.amount {
+  flex: 1;
+}
+
+section.current div.amount ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+section.current div.amount ul li {
+  display: flex;
+  align-items: center;
+  margin: 6px 0;
+}
+
+section.current div.amount span.label {
+  font-size: 14px;
+  color: #a0a0a0;
+  margin-right: 10px;
+}
+
+section.current div.amount span.amount {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 2px;
+}
+
+section.current div.amount span.amount.income {
+  color: rgb(72, 198, 108);
+}
+
+section.current div button.analysis {
+  border: none;
+  padding: 16px;
+  border-radius: 6px;
+  color: #222222;
+}
+

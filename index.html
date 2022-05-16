@@ -10,24 +10,25 @@
 </head>
 <body>
   <header>
-    <span class="material-icons">search</span>
+    <span class="title"></span>
+    <span class="material-icons search">search</span>
     <span class="material-icons">notifications_none</span>
     <span class="material-icons">more_horiz</span>
   </header>
-  <nav>
+  <nav class="month">
     <span class="material-icons">arrow_left</span>
-    5월
+    <span class="month">5월</span>
     <span class="material-icons">arrow_right</span>
   </nav>
-  <section>
-    <div>
+  <section class="current">
+    <div class="amount">
       <ul>
-        <li>지출 991,580원</li>
-        <li>수입 0원</li>
+        <li><span class="label">지출</span><span class="amount">991,580원</span></li>
+        <li><span class="label">수입</span><span class="amount income">0원</span></li>
       </ul>
     </div>
     <div>
-      <button>분석</button>
+      <button class="analysis">분석</button>
     </div>
   </section>
   <section>

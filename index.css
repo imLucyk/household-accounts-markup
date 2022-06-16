@@ -157,3 +157,34 @@ section.payments .note {
 section.payments .daily-payment {
   font-size: 14.5px;
 }
+
+footer ul {
+  display: flex;
+  list-style: none;
+  position: fixed;
+  padding-left: 0;
+  border-top: #f9f9f9 1px solid ;
+  padding: 10px 0 20px;
+  bottom: 0px;
+  width: 100%;
+  background-color: #ffffff;
+  margin: 0;
+}
+
+footer li {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 10px;
+  -webkit-transform: scale(0.8);
+}
+
+footer li .icon-title {
+  color: #adb3c4;
+  margin-top: 5px;
+}
+
+footer li .active {
+  color: #000000;
+}

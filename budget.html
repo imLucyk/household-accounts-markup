@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Household Accounts</title>
+  <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined" rel="stylesheet">
+  <link href="./css/index.css" rel="stylesheet">
+  <link href="./css/budget.css" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <span class="title"></span>
+    <span class="icons"><img src="./images/search.png" width="16" alt="Search"></span>
+    <span class="icons">
+      <img src="./images/bell.png" width="20" alt="Alarm">
+      <span id="alarm-counter"><span class="counter">1</span></span>
+    </span>
+    <span class="icons"><img src="./images/more.png" width="20" alt="More"></span>
+  </header>
+  <nav class="month">
+    <span class="material-icons">arrow_left</span>
+    <span class="month">5월</span>
+    <span class="material-icons">arrow_right</span>
+  </nav>
+  <section class="current">
+    <div class="amount">
+      <ul>
+        <li><span class="label">지출</span><span class="amount">991,580원</span></li>
+        <li><span class="label">수입</span><span class="amount income">0원</span></li>
+      </ul>
+    </div>
+    <div>
+      <button class="analysis">분석</button>
+    </div>
+  </section>
+  <section class="budget">
+    <article class="guide">
+      <div class="title">한 달 예산을 세워볼까요?</div>
+      <div class="subtitle">예산을 설정하고 계획적으로 관리 해보세요.</div>
+    </article>
+    <article class="monthly-budget">
+      <span class="monthly-budget">한 달 예산</span>
+      <span class="total-monthly-budget">0 원</span>
+    </article>
+    <article class="bottons">
+      <button class="copy-budget">이전 예산 복사하기</button>
+      <div class="pre-month-budget">4월 예산 보러가기</div>
+    </article>
+  </section>
+  <nav class="pages">
+    <ul>
+      <li><a href="./details.html">내역</a></li>
+      <li><a href="./calendar.html">달력</a></li>
+      <li class="active"><a href="./budget.html">예산</a></li>
+    </ul>
+  </nav>
+  <footer>
+    <ul>
+      <li><div class="material-icons">account_balance_wallet</div><span class="icon-title">자산</span></li>
+      <li><span class="material-icons">price_change</span><span class="icon-title active">가계부</span></li>
+      <li><span class="material-icons">monitor_heart</span><span class="icon-title">건강</span></li>
+      <li><span class="material-icons">emoji_symbols</span><span class="icon-title">금융매칭</span></li>
+      <li><span class="material-icons">menu</span><span class="icon-title">전체</span></li>
+    </ul>
+  </footer>
+</body>
+</html>

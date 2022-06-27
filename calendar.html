@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Household Accounts</title>
+  <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined" rel="stylesheet">
+  <link href="./css/index.css" rel="stylesheet">
+  <link href="./css/calendar.css" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <span class="title"></span>
+    <span class="icons"><img src="./images/search.png" width="16" alt="Search"></span>
+    <span class="icons">
+      <img src="./images/bell.png" width="20" alt="Alarm">
+      <span id="alarm-counter"><span class="counter">1</span></span>
+    </span>
+    <span class="icons"><img src="./images/more.png" width="20" alt="More"></span>
+  </header>
+  <nav class="month">
+    <span class="material-icons">arrow_left</span>
+    <span class="month">5월</span>
+    <span class="material-icons">arrow_right</span>
+  </nav>
+  <section class="current">
+    <div class="amount">
+      <ul>
+        <li><span class="label">지출</span><span class="amount">991,580원</span></li>
+        <li><span class="label">수입</span><span class="amount income">0원</span></li>
+      </ul>
+    </div>
+    <div>
+      <button class="analysis">분석</button>
+    </div>
+  </section>
+  <section class="calendar">
+    <article class="day-of-the-week">
+      <span class="week sun">일</span>
+      <span class="week mon">월</span>
+      <span class="week tue">화</span>
+      <span class="week wed">수</span>
+      <span class="week thu">목</span>
+      <span class="week fri">금</span>
+      <span class="week sat">토</span>
+    </article>
+    <article class="weekly-sum">-537,100원</article>
+    <article class="week">
+      <div class="days">
+        <div class="number">1</div>
+        <div class="sum">-23,800원</div>
+      </div>
+      <div class="days">
+        <div class="number">2</div>
+        <div class="sum"></div>
+      </div>
+      <div class="days">
+        <div class="number">3</div>
+        <div class="sum">-128,500원</div>
+      </div>
+      <div class="days">
+        <div class="number">4</div>
+        <div class="sum">-4,500원</div>
+      </div>
+      <div class="days">
+        <div class="number">5</div>
+        <div class="sum">-125,600원</div>
+      </div>
+      <div class="days">
+        <div class="number">6</div>
+        <div class="sum">-128,500원</div>
+      </div>
+      <div class="days">
+        <div class="number">7</div>
+        <div class="sum">-128,500원</div>
+      </div>
+    </article>
+    <article class="weekly-sum">-391,9300원</article>
+    <article class="week">
+      <div class="days">
+        <div class="number">8</div>
+        <div class="sum">-23,800원</div>
+      </div>
+      <div class="days">
+        <div class="number">9</div>
+        <div class="sum"></div>
+      </div>
+      <div class="days">
+        <div class="number">10</div>
+        <div class="sum">-128,500원</div>
+      </div>
+      <div class="days">
+        <div class="number">11</div>
+        <div class="sum">-4,500원</div>
+      </div>
+      <div class="days">
+        <div class="number">12</div>
+        <div class="sum">-125,600원</div>
+      </div>
+      <div class="days">
+        <div class="number">13</div>
+        <div class="sum">-128,500원</div>
+      </div>
+      <div class="days">
+        <div class="number">14</div>
+        <div class="sum">-128,500원</div>
+      </div>
+    </article>
+    <article class="weekly-sum">-62,550원</article>
+    <article class="week">
+      <div class="days">
+        <div class="number">15</div>
+        <div class="sum">-23,800원</div>
+      </div>
+      <div class="days">
+        <div class="number active">16</div>
+        <div class="sum"></div>
+      </div>
+      <div class="days">
+        <div class="number unselect">17</div>
+        <div class="sum">-128,500원</div>
+      </div>
+      <div class="days">
+        <div class="number unselect">18</div>
+        <div class="sum">-4,500원</div>
+      </div>
+      <div class="days">
+        <div class="number unselect">19</div>
+        <div class="sum">-125,600원</div>
+      </div>
+      <div class="days">
+        <div class="number unselect">20</div>
+        <div class="sum">-128,500원</div>
+      </div>
+      <div class="days">
+        <div class="number unselect">21</div>
+        <div class="sum">-128,500원</div>
+      </div>
+    </article>
+  </section>
+  <nav class="pages">
+    <ul>
+      <li><a href="./details.html">내역</a></li>
+      <li class="active"><a href="./calendar.html">달력</a></li>
+      <li><a href="./budget.html">예산</a></li>
+    </ul>
+  </nav>
+  <footer>
+    <ul>
+      <li><div class="material-icons">account_balance_wallet</div><span class="icon-title">자산</span></li>
+      <li><span class="material-icons">price_change</span><span class="icon-title active">가계부</span></li>
+      <li><span class="material-icons">monitor_heart</span><span class="icon-title">건강</span></li>
+      <li><span class="material-icons">emoji_symbols</span><span class="icon-title">금융매칭</span></li>
+      <li><span class="material-icons">menu</span><span class="icon-title">전체</span></li>
+    </ul>
+  </footer>
+</body>
+</html>
